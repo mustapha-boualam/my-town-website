@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url("images/tipazaville.jpg");
+    background-size: cover;
+    margin-top: -22px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #f1faee;
+    font-family: 'oswald', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #457b9d ;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+h1:hover{
+    color: #457b9d;
+    background-color: #f1faee ;
+}
+
+.subtitle{
+    color: #f1faee;
+    font-family: 'oswald', sans-serif;
+    font-weight: 200px;
+    font-size: 30px;
+    background-color: #1d3557 ;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.container{
+    margin-top: -21px;
+    background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.co-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.secendtitle{
+    padding: 35px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.img-places{
+    border: solid 3px white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.btn{
+    padding: 4px 12px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 20px;
+    background-color: #457b9d;
+    color: #1d3557;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    font-weight: 200px;
+    background-color: #1d3557 ;
+    color: #457b9d;
+}
+
+.guide{
+    margin: 70px auto ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1d3557;
+    width: 450px;
+    border-bottom: solid 5px #457b9d;
+    border-radius: 10px;
+    color: #a8dadc;
+    transform: rotate(8deg);
+    transition: all 2s ease-in-out;
+    
+}
+
+.guide:hover{
+    transform: rotate(-8deg);
+}
+
+.con-guide{
+    padding: 20px;
+}
+
+
+.guideavatar{
+   height: 300px;
+   width: 220px;
+   border-radius: 10px;
+
+}
+
